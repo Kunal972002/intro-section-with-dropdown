@@ -1,0 +1,112 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: hsl(0, 0%, 98%);
+font-family: 'Epilogue', sans-serif;
+/* overflow: hidden; */
+}
+h3{
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 30px;
+    /* font-size: 200px; */
+}
+.row h1{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1;
+}
+.row p{
+    font-size: 15px;
+    margin-top: 30px;
+    color:hsl(0, 0%, 41%) ;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* .container{
+    height: 100%;
+    width: 100%;
+} */
+.collapse {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar{
+    color:hsl(0, 0%, 41%) ;
+}
+.navbar-nav li .nav-item a{
+    color:hsl(0, 0%, 41%) ;
+}
+.navbar ul li a{
+    color: hsl(0, 0%, 41%);
+}
+.navbar .btn{
+    /* margin-right: 10px; */
+    color:hsl(0, 0%, 41%) ;
+    background-color: hsl(0, 0%, 98%);
+    border: none;
+}
+.navbar .dropdown li .dropimg{
+    margin-right: 10px;
+}
+/* styling main section */
+#main{
+    height: 100vh;
+}
+.col1{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.row .btn{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+.row .company{
+    margin-top: 50px;
+    text-align: center;
+}
+.row .company img{
+    height: 25px;
+    width: 60px;
+}
+ .row img{
+    height: 80%;
+    width: 90%;
+}
+
+.navbar .btn:hover{
+    border: 2px solid hsl(0, 0%, 41%)  ;
+    background-color: hsl(0, 0%, 98%);
+}
+
+
+@media only screen and (max-width:770px) {
+    *{
+        text-align: center;
+    }
+    #main .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    /* .mainimg{
+        display: none;
+    }
+    #main .container .mainimg{
+        background: url(images/image-hero-mobile.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    } */
+    
+     #main .container h1{
+        font-size: 38px;
+        text-align: center;
+    }
+}
